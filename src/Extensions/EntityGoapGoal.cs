@@ -1,6 +1,6 @@
-using AI.Goap.Handler;
+using Libraries.btcp.Goap.src.Handler;
 
-namespace ECS.AI.Goap
+namespace Libraries.btcp.src.Extensions
 {
     public class EntityGoapGoal : BaseGoapGoal
     {

@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using AI.Goap.Handler;
-using ECS.AI.Sensors.Targeting;
 using Entitas;
-using UnityEngine;
+
+using Libraries.btcp.ECS.src.AI.Sensors.Targeting;
+using Libraries.btcp.Goap.src.Handler;
 using UnityEngine.Assertions;
 
-namespace ECS.AI.Goap
+namespace Libraries.btcp.src.Extensions
 {
     public class EntityGoapAgent : BaseGoapAgent
     {
